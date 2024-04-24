@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,7 +26,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(89, 7, 89);
+}
+.container{
+  position: relative;
+}
+.clock{
+position: relative;
+/* width: 35%;
+height: 35%; */
+/* background-color: rgb(43, 226, 64); */
+box-shadow: 10px 50px 70px purple;
+border: 2px solid rgb(13, 128, 0);
+height: 30%;
+width: 30%;
 }
